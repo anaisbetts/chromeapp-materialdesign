@@ -1,7 +1,7 @@
 {
     "name": "__MSG_appName__",
     "description": "__MSG_appDescription__",
-    "version": "3",
+    "version": "5",
     "manifest_version": 2,
     "default_locale": "en",
     "permissions": [
@@ -13,20 +13,16 @@
                 "udp-send-to:*:*"
             ]
         },
-        "adview (dev)",
         "alarms",
-        "app.runtime",
         "app.window",
-        "audio (dev)",
+        "audio",
         "audioCapture",
-        "bluetooth (dev)",
         "clipboardRead",
         "clipboardWrite",
         "contextMenus",
-        "desktopCapture (dev)",
-        "diagnostics (dev)",
-        "dns (dev)",
-        "experimental",
+        "desktopCapture",
+        "diagnostics",
+        "dns",
         "fileBrowserHandler",
         {
             "fileSystem": [
@@ -36,36 +32,27 @@
             ]
         },
         "fullscreen",
-        "gcm (dev)",
+        "gcm",
         "geolocation",
         "identity",
         "idle",
-        "infobars (dev)",
-        "location (dev)",
-        {
-            "mediaGalleries": [
-                "read",
-                "copyTo",
-                "allAutoDetected"
-            ]
-        },
-        "notifications",
+        "infobars",
         "pointerLock",
         "power",
         "pushMessaging",
         "serial",
-        "signedInDevices (dev)",
+        "signedInDevices",
         "storage",
         "syncFileSystem",
-        "system.cpu (dev)",
+        "system.cpu",
         "system.display",
-        "system.memory (dev)",
+        "system.memory",
         "system.storage",
         "tts",
         "unlimitedStorage",
         "usb",
         "videoCapture",
-        "wallpaper (dev)",
+        "wallpaper",
         "webview",
         "<all_urls>"
     ],
@@ -80,13 +67,5 @@
                 "scripts/chromereload.js"
             ]
         }
-    },
-    "file_browser_handlers": {
-        "id": "upload",
-        "default_title": "File browser",
-        "file_filters": [
-            "filesystem:*.*"
-        ]
-    },
-    "web_accessible_resources": "images/icon-48.png"
+    }
 }
